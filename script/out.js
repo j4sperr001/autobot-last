@@ -2,7 +2,7 @@ module.exports.config = {
   name: "out",
   version: "1.0.0",
   cooldown: 10,
-  role: 0,
+  role: 2,
   hasPrefix: true,
   aliases: ['system'],
   description: "Bot leaves the thread",

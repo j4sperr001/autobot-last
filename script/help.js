@@ -21,7 +21,7 @@ module.exports.run = async function({
     const eventCommands = enableCommands[1].handleEvent;
     const commands = enableCommands[0].commands;
     if (!input) {
-      const pages = 10;
+      const pages = 100;
       let page = 1;
       let start = (page - 1) * pages;
       let end = start + pages;
@@ -38,7 +38,7 @@ module.exports.run = async function({
       api.sendMessage(helpMessage, event.threadID, event.messageID);
     } else if (!isNaN(input)) {
       const page = parseInt(input);
-      const pages = 19;
+      const pages = 100;
       let start = (page - 1) * pages;
       let end = start + pages;
       let helpMessage = `𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧:\n\n`;

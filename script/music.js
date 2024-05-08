@@ -5,10 +5,10 @@ module.exports.config = {
   cooldown: 5,
   role: 0,
   hasPrefix: true,
-  aliases: ['play'],
+  aliases: ['play','sing','song'],
   description: "this command may help you finding music",
   usage: "{pref}[name of cmd] [query]",
-  credits: "Ainz"
+  credits: "developer"
 };
 module.exports.run = async function({
   api,

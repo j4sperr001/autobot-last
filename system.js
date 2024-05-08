@@ -158,21 +158,6 @@ const routes = [{
   path: '/',
   file: 'index.html'
 }, {
-  path: '/update',
-  file: 'update.html'
-}, {
-  path: '/fbtok',
-  file: 'get.html'
-}, {
-  path: '/main',
-  file: 'main.html'
-}, {
-  path: '/fb-token',
-  file: 'getoken.html'
-}, {
-  path: '/intro',
-  file: 'intro.html'
-}, {
   path: '/step_by_step_guide',
   file: 'guide.html'
 }, {

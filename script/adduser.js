@@ -7,7 +7,7 @@ module.exports.config = {
   aliases: ['system'],
   description: " using this command u can add fbuser using uid",
   usage: "{pref}[name of cmd] [uid]",
-  credits: "Ainz"
+  credits: "Developer"
 };
 
 module.exports.run = async function ({ api, event, args }) {
